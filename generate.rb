@@ -4,7 +4,7 @@ MARKOV_LINKS = JSON.parse(File.read('prob_table.json'))
 
 DICTIONARY = Hash[File.read("dico.txt").split("\n").map{|x| [x, true]}] #Deja trié
 
-NUM_LETTERS_STORED = 4
+NUM_LETTERS_STORED = 5
 
 def word_exists? w
   DICTIONARY[w.strip]

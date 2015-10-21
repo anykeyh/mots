@@ -1,7 +1,7 @@
 require 'json'
 
 # PROBA A N LETTRE PRECEDENTS
-NUM_LETTERS_STORED = 4
+NUM_LETTERS_STORED = 5
 
 probs = {}
 
